@@ -33,21 +33,13 @@
 }
 
 <!-- MYCODE -->
-.images {
-  display: flex;
-  padding: 5px;
-}
-.img-holder {
-  position: relative;
-  margin: 5px;
-  align-self: flex-start;
-}
-.img-holder p {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  text-align: center;
-  margin: 0;
+.item{
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
 }
