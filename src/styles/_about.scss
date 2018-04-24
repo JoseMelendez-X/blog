@@ -27,7 +27,23 @@
   }
 }
 
+<!-- MY CODE -->
+
 .user-details {
   text-align: center;
   margin: 5px auto;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.caption {
+    display: block;
 }
