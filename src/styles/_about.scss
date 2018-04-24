@@ -32,15 +32,22 @@
   margin: 5px auto;
 }
 
-<!-- MY CODE -->
-.images {
-  position: relative;
-  display: inline-block;
+<!-- MYCODE -->
+images {
+  display: flex;
+  padding: 5px;
 }
-
-.images p {
+.img-holder {
+  position: relative;
+  margin: 5px;
+  align-self: flex-start;
+}
+.img-holder p {
   position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
   text-align: center;
-  bottom: 0;
-  lef
+  margin: 0;
+}
